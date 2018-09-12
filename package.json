@@ -1,0 +1,19 @@
+{
+  "name": "simple-aad-graph-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "init": "npm install",
+    "build": "tsc -p ./",
+    "start": "npm run build && node ./app.js"
+  },
+  "author": "richdizz",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.4.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  }
+}
